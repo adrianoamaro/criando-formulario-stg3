@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentoria</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="top">
+        <div class="titulo">
+            <h1>
+                Mentoria
+            </h1>
+            <p>
+                Preencha o formulário abaixo para <br>agendar a sua mentoria
+            </p>
+        </div>
+    </div>
+
+    <div class="informacoes">
+
+       <form action="">
+            <fieldset class="informacoes-pessoais">
+                <legend>Informações Pessoais</legend>
+
+                <div class="line"></div>
+                
+                <div class="two-col">
+                    <div class="nome">
+                        <label for="name">Nome</label><br>
+                        <input type="text" id="name">
+                    </div>
+    
+                    <div class="sobrenome">
+                        <label for="last-name">Sobrenome</label><br>
+                        <input type="text" id="last-name">
+                    </div>
+                </div>
+
+                <div class="two-col2">
+                    <div class="email">
+                        <label for="email">Email <span>(digite um e-mail válido)</span></label><br>
+                        <input type="email" id="email"><br>
+                    </div>
+
+                    <div class="password">
+                        <label for="password">Senha <span>(mínimo de 6 caracteres)</span></label>
+                        <input type="password" id="password">
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset class="informacoes-mentor">
+                <legend>Informações do Mentor</legend>
+
+                <div class="line"></div>
+                
+                <div class="two-col">
+                    <div class="nome">
+                        <label for="name">Nome do seu mentor <span>(só o primeiro nome)</span></label><br>
+                        <input type="text" id="name">
+                    </div>
+                </div>
+            </fieldset>
+    
+            <fieldset class="informacoes-horarios">
+                <legend>Seus horários disponíveis</legend>
+
+                <div class="line"></div>
+                
+                <h2>Primeira Mentoria</h2>
+
+                <div class="three-col">
+                    <div class="data">
+                        <label for="date">Data <span>(DD/MM/AAA)</span></label><br>
+                        <input type="date" id="date">
+                    </div>
+                    <div class="das">
+                        <label for="das">Das</label><br>
+                        <input type="time" id="das">
+                    </div>
+                    <div class="ate">
+                        <label for="ate">Até</label><br>
+                        <input type="time" id="ate">
+                    </div>
+                </div>
+
+                <h2>Segunda Mentoria</h2>
+
+                <div class="three-col">
+                    <div class="data">
+                        <label for="date">Data <span>(DD/MM/AAA)</span></label><br>
+                        <input type="date" id="date">
+                    </div>
+                    <div class="das">
+                        <label for="das">Das</label><br>
+                        <input type="time" id="das">
+                    </div>
+                    <div class="ate">
+                        <label for="ate">Até</label><br>
+                        <input type="time" id="ate">
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+
+        <div class="rodape">
+            <button>Salvar</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
